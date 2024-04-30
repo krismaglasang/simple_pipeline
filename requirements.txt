@@ -1,0 +1,7 @@
+apache-airflow[celery]==2.9.0
+--constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.9.0/constraints-3.8.txt
+
+apache-airflow-providers-postgres
+apache-airflow-providers-common-sql
+psycopg2
+python-dotenv
