@@ -1,2 +1,2 @@
 source .env
-airflow webserver -p 8081 -D & airflow scheduler
+airflow webserver -p ${AIRFLOW_PORT} -D & airflow scheduler
